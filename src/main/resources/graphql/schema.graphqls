@@ -1,0 +1,10 @@
+type Query {
+    # producto
+    findProductoById(productoId: String) : Producto
+}
+
+type Producto {
+    id: ID,
+    nombre: String,
+    precio: Int
+}
